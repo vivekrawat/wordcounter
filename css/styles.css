@@ -1,0 +1,28 @@
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:60px;
+    color:rgba(0,0,0,.7);
+    font-weight: 800;
+}
+.cla{
+    background-color: rgba(135,206,235,1);
+}
+.cla2{
+    color:rgba(0,0,0,.6);
+    font-size:22px;
+}
+.cla3{
+    background-color: rgba(0,0,0,.2);
+    
+    
+}
+.cla4{
+    background-color: rgba(0,0,0,.1);
+}
+.claa5{
+    font-size: 25px;
+    color:rgba(0,0,0,.7)
+}
+.claa6{
+    color:green;
+}
