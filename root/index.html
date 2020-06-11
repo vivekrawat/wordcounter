@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>WordCounter</title>
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script type="text/javascript" src="../js/counter.js"></script>
+	<link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body class="cla3">
+	
+	<div class="jumbotron cla" align="center" >
+    <h1>WordCounter</h1>
+    <p class="cla2">A simple application to count the number of words in a text and the words required to meet a particular target</p>
+</div>
+	<div class="container cla4">
+		<div class="row">
+			<div class="col-sm-8">
+				<textarea name="paragraph" class="form-control" id="paragraph" rows="19" placeholder="Write your Text / Paste your text then hit submit button"></textarea>
+				<div class="form-group" align="center" style="margin-top:15px;">
+					<button type="button" class="btn btn-success btn-lg" id="submitinfo">Submit</button>
+				</div>
+			</div>
+			<div class="col-sm-4"><br>
+				<div class="thumbnail">
+					<p class="claa5" align="center">Required Words:</p>
+					<input name="total" class="form-control" id="total" placeholder=0 type="number">
+					<div class="claa5" align="center">
+						<p>Word Count</p>
+						<p class="claa6" id="wordcount">0</p>
+					</div>
+					<div class="claa5" align="center">
+						<p>Words Required</p>
+						<p class="claa6" id="required">0</p>
+					</div>
+
+					
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
